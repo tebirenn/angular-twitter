@@ -1,0 +1,43 @@
+.aside-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 20px;
+    border-right: 0.5px solid #ebebeb;
+    /* width: 20%; */
+}
+
+.logo svg {
+    width: 25px;
+}
+
+.menu--item svg {
+    width: 22px;
+}
+.menu--item p {
+    font-size: 20px;
+    color: #000;
+}
+.menu--item {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.menu--item span {
+    display: block;
+    width: 35px;
+}
+
+.new-post-btn {
+    color: #fff;
+    font-weight: 600;
+    background-color: #1d9bf0;
+    border: none;
+    font-size: 17px;
+    padding: 15px 60px;
+    border-radius: 50px;
+    text-decoration: none;
+}

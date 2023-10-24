@@ -1,0 +1,38 @@
+.home-main {
+    width: 80%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.aside-menu-wrapper {
+    width: 20%;
+    box-sizing: border-box;
+}
+
+.like-btn {
+    background-color: transparent;
+    border: none;
+}
+.like-btn svg {
+    width: 25px;
+}
+.like-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.post-avatar {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+}
+.post--item {
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    background-color: #ececec;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+p.username {
+    margin: 0;
+}

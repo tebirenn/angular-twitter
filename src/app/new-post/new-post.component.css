@@ -1,0 +1,46 @@
+.login-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #d1d1d1;
+}
+.login-wrapper > div {
+    width: 40%;
+}
+
+.form {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 30px 100px;
+}
+
+.form input {
+    border: 0.5px solid #000;
+    height: 50px;
+    font-size: 20px;
+    padding: 0 5px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.form button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 8px 0;
+    font-size: 16px;
+    border-radius: 25px;
+}
+
+textarea {
+    resize: none;
+    margin-bottom: 10px;
+    height: 100px;
+    outline: none;
+    padding: 5px;
+}
